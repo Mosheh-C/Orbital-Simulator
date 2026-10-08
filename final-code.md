@@ -105,7 +105,7 @@ def rk4_step(rx, ry, vx, vy, px, py, mass, dt):
     """
     MATHEMATICAL THEORY FOR CREST REPORT:
     Euler integration assumes the gravitational field is uniform across a frames timeframe.
-    Because gravity curves sharply, this linear approximation accumulates numerical energy drift.
+    Because gravity curves sharply, this linear approximation accumulates energy drift.
     RK4 operates by sampling four distinct vector derivatives (slopes) across the time step:
     K1: The initial gradient at the current position.
     K2: A trial step to the midpoint using K1's vector trajectory.
